@@ -1,0 +1,69 @@
+/* google font import to css file directly */
+/* @import url("https://fonts.googleapis.com/css2?family=Niconne&display=swap");c'alpacadatav1 /*.*' */
+
+h1,
+h2 {
+  color: pink;
+  font-size: 10mm;
+}
+
+p {
+  color: green;
+}
+
+body {
+  font-family: monospace;
+  line-height: 1.5em;
+}
+
+#top {
+  background-color: rgb(103, 80, 255);
+}
+
+#family {
+  font-family: "Niconne", cursive;
+}
+
+.color {
+  color: purple;
+}
+
+div {
+  color: red;
+  border: 3px solid peachpuff;
+}
+
+span {
+  color: brown;
+}
+
+/* percentages */
+.outer {
+  background: green;
+  width: 500px;
+  height: 200px;
+}
+
+.inner {
+  background: gold;
+  width: 100%;
+  height: 50%;
+}
+
+#move {
+  text-align: right;
+  text-transform: lowercase;
+  text-indent: 10px;
+}
+
+#mark {
+  background-color: blue;
+  padding: 20px;
+  margin: 100px;
+  border: black solid 10px;
+}
+
+#mark:hover {
+  background-color: red;
+}
+
